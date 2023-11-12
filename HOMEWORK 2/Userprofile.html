@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Profile Page</title>
+<link rel="stylesheet" type="text/css" href="Userprofile.css">
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo.png" alt="Logo" />
+      <div class="menu-icon">☰</div>
+    </header>
+  
+    <section class="profile-info">
+      <h2>Profile Info</h2>
+    </section>
+  
+  
+    
+      <section class="profile-info">
+              <div class="profile-picture">
+                  <img src="#" alt="Profile Picture" />
+              </div>
+              <div class="user-details">
+                <form id="profileForm">
+                  <label for="firstname">First Name:</label>
+                  <input type="text" id="firstname" name="firstname" required>
+                  <label for="lastname">Last Name:</label>
+                  <input type="text" id="lastname" name="lastname" required>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" disabled>
+                  <label for="phoneno">Phone Number:</label>
+                  <input type="tel" id="phoneno" name="phoneno" required>
+                  <label for="description">Brief Description:</label>
+                  <textarea id="description" name="description" rows="4" cols="50" required></textarea>
+                  <button type="submit">Save Changes</button> 
+                </form>
+              </div>
+      
+      </section>
+  
+  
+    <section class="address">
+      <div class="delivery-address">
+        <h2>Delivery Address</h2>
+        <button>Edit</button> 
+      </div>
+    </section>
+  
+    <section class="address">
+      <div class="billing-address">
+        <h2>Billing Address</h2>
+        <button>Edit</button> 
+      </div>
+    </section>
+  
+    <section class="orders">
+      <h2>Orders</h2>
+    </section>
+  
+    <section class="List of orders">
+      <p>Invoice ID: #123</p>
+      <p>Status: Delivered</p>
+      <button>View Details</button> 
+    </section>
+  
+    <section class="products">
+      <h2>Products</h2>
+    </section>
+  
+    <section class="List of orders">
+      <p>Product 1 - In Stock</p>
+      <button>View Details</button> 
+    </section>
+  
+  </div>
+  <!-- <script src="Profilepage.js"></script> -->
+  <script src="Profilepage.js"></script>
+</body>
+</html>
