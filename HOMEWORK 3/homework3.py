@@ -2,6 +2,9 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd 
 
+app = Flask("homework_api")
+CORS(app, resources=r'/api/*')
+
 @app.route('/users', methods=['GET'])
 def get_users():
     users = User.query.all()
